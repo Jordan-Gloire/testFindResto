@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/slider/package/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-slate-200">
+    <!-- SECTION EN TETE -->
+    <div class="bg-orange-600 flex justify-around items-center shadow-lg gap-3 h-16">
+        <h1 class="text-center text-2xl font-bold">Find<span class="text-white font-extralight">Resto</span></h1>
+        <div class="flex justify-between items-center gap-3">
+            <a href="/dist/connexion.html">
+            <button class=" bg-black py-2 px-2 rounded-lg text-white hover:text-black hover:bg-white ease-in duration-700">Connexion</button>
+            </a>
+            <a href="/dist/inscription.html">
+            <button class=" bg-black py-2 px-2 rounded-lg text-white hover:text-black hover:bg-white ease-in duration-700">Inscription</button>
+            </a>
+        </div>
+    </div>
+
+   
+
+    <!-- SECTION BOUTTON RECHERCHER -->
+    
+    <!-- Swiper -->
+    
+    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+        <div class="parallax-bg" style="
+              background-image: url(/imge/resto10.webp);
+            " data-swiper-parallax="-23%"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">Découvrez</div>
+                <div class="subtitle" data-swiper-parallax="-200">Restaurant</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <p class="shadow-xl">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                        laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                        Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                        Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                        ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                        tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">Réservez</div>
+                <div class="subtitle" data-swiper-parallax="-200">Restaurant</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                        laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                        Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                        Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                        ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                        tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">Commandez</div>
+                <div class="subtitle" data-swiper-parallax="-200">Restaurant</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                        laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                        Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                        Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                        ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                        tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    
+    <div class=" my-4 mx-3 grid grid-cols-2 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div class="shadow-lg bg-white hover:skew-y-6 duration-500 ease-in-out rounded-b-lg">
+            <img src="/imge/resto7.jpg" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+
+            </div>
+        </div>
+        <div class="shadow-lg bg-white hover:skew-y-6 duration-500 ease-in-out rounded-b-lg">
+            <img src="/imge/resto6.jpg" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+
+            </div>
+        </div>
+        <div class="shadow-lg bg-white rounded-b-lg" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="/imge/rseto3.png" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+
+            </div>
+        </div>
+        <div class="shadow-lg bg-white rounded-b-lg hover:-translate-y-6 duration-500 ease-in-out" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="/imge/resto11.jpg" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+
+            </div>
+        </div>
+        <div class="shadow-lg bg-white rounded-b-lg" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="/imge/resto1.webp" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+            </div>
+        </div>
+        <div class="shadow-lg bg-white rounded-b-lg" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="/imge/resto4.jpg" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+
+            </div>
+        </div>
+        <div class="shadow-lg bg-white rounded-b-lg" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="/imge/rseto3.png" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+
+            </div>
+        </div>
+        <div class="shadow-lg bg-white rounded-b-lg" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="/imge/resto11.jpg" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+
+            </div>
+        </div>
+        <div class="shadow-lg bg-white rounded-b-lg" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="/imge/resto13.jpg" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+
+            </div>
+        </div>
+        <div class="shadow-lg bg-white rounded-b-lg" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="/imge/resto14.jpg" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+
+            </div>
+        </div>
+        <div class="shadow-lg bg-white rounded-b-lg" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="/imge/resto15.jpg" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+            </div>
+        </div>
+        <div class="shadow-lg bg-white rounded-b-lg" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="/imge/resto16.jpg" alt="" class="rounded-t-lg">
+            <div class="mx-4">
+                <h1>Nom resto</h1>
+                <p>Details resto,adresse,num etc...</p>
+                <button class="bg-orange-600 hover:bg-orange-400 px-4 py-2 rounded-md my-3">Menu</button>
+            </div>
+        </div>
+    </div>
+   
+<script src="/slider/package/swiper-bundle.min.js"></script>    
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        speed: 600,
+        parallax: true,
+        autoplay:true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

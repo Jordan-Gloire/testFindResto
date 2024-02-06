@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "swiper": "^11.0.5"
+  }
+}
